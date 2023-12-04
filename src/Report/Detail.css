@@ -1,0 +1,165 @@
+.form-container {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  display: grid;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+.btn {
+  margin-left: 200%;
+  margin-top: 0px;
+  width: 50%;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.users {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.form {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-family: "Poppins" sans-serif;
+  display: flex;
+  gap: 10%;
+}
+
+h3 {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: "Poppins" sans-serif;
+}
+input {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: none;
+  margin-left: 0px;
+}
+input:focus {
+  outline: none;
+}
+.icon {
+  padding: 2px;
+  margin: 2px;
+  margin-top: 10px;
+}
+.head {
+  display: flex;
+  gap: 15%;
+  margin-top: 0px;
+  font-family: "Poppins" sans-serif;
+}
+.table {
+  background: #ebe9eb;
+  margin-top: 0px;
+
+  padding: 20px;
+  width: 250%;
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins" sans-serif;
+}
+.user {
+  display: flex;
+  padding: 2px;
+  margin: 2px;
+  gap: 12%;
+  font-size: 15px;
+  color: gray;
+  font-family: "Poppins" sans-serif;
+}
+button {
+  border: rgb(51, 50, 50);
+  width: 15%;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: rgb(51, 50, 50);
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin-left: 0px;
+}
+.view {
+  margin-left: 0px;
+}
+button:hover {
+  background: black;
+  color: #fff;
+  text-decoration: none;
+}
+.numbers {
+  margin-left: 70%;
+  padding: 20px;
+  gap: 10%;
+  display: flex;
+}
+.num:hover {
+  background: black;
+  color: #fff;
+  width: 10%;
+  padding: 2px;
+  border-radius: 6px;
+}
+.num {
+  border: #ebe9eb;
+  background: #ebe9eb;
+  gap: 20%;
+}
+@media (max-width: 768px) {
+  .table {
+    margin-right: 40px;
+    font-size: 12px;
+    width: 100%;
+  }
+  .details {
+    font-size: 10px;
+  }
+  .user {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  button {
+    font-size: 8px;
+    width: 20%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .numbers {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  .num:hover {
+    padding: 5px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 10px;
+  }
+  .btn {
+    margin-left: 250px;
+  }
+  input {
+    font-size: 10px;
+  }
+}

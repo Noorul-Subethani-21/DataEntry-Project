@@ -4,7 +4,7 @@ import logo from "../../src/assets/logo.png";
 import email from "../../src/assets/email.png";
 import password from "../../src/assets/password.png";
 
-const LoginAdmin = () => {
+const UserAdmin = () => {
   const inputStyle = {
     outline: "none",
     marginLeft: "10px",
@@ -40,7 +40,7 @@ const LoginAdmin = () => {
       >
         <img src={logo} alt="" />
         <h2 style={{ color: "#000", fontFamily: "Poppins, serif" }}>
-          Admin Login
+          User Login
         </h2>
       </div>
 
@@ -79,24 +79,7 @@ const LoginAdmin = () => {
       </div>
 
       <div style={{ ...inputContainersStyle, marginTop: "20px" }}>
-        <h3
-          style={{
-            fontSize: "16px",
-            fontFamily: "Poppins",
-            border: "none",
-            marginLeft: "20px",
-            backgroundColor: "white",
-          }}
-        >
-          <Link
-            style={{ textDecoration: "none", color: "#000" }}
-            to="/ForgetPassword"
-          >
-            {" "}
-            Forget the password?
-          </Link>
-        </h3>
-        <button style={buttonStyle}> Login</button>
+        <button style={buttonStyle}><Link to='/userdashboard' style={{color:'#fff', textDecoration:"none"}}> Login</Link></button>
       </div>
     </div>
   );
@@ -140,4 +123,4 @@ const buttonStyle = {
   fontFamily: '"Poppins", sans-serif',
 };
 
-export default LoginAdmin;
+export default UserAdmin;

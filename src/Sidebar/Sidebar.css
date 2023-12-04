@@ -1,0 +1,130 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Poppins" sans-serif;
+}
+.sidebar {
+  display: flex;
+  color: gray;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  margin: 2px;
+  width: 120px;
+  margin-top: 5px;
+  padding: 5px 33px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.1s ease-in-out;
+  text-decoration: none;
+}
+.sidebar:hover {
+  background: black;
+}
+
+.sidebar:hover .sidebar-name {
+  color: white;
+}
+
+.sidebar:hover .sidebaricon {
+  color: #fff;
+}
+
+.form-container {
+  width: 100%;
+  margin: 25px;
+  color: black;
+  display: grid;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 550%;
+  margin-top: 0px;
+}
+.btn {
+  margin-left: 80%;
+  margin-top: 0px;
+}
+
+.form {
+  border: 1px solid #ebe9eb;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  background: #ebe9eb;
+}
+
+h3 {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+input {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins" sans-serif;
+  border-radius: 10px;
+  width: 90%;
+  background: #ebe9eb;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.icon {
+  padding: 2px;
+  margin: 2px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+  }
+  .app-container {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+
+    width: 100%;
+  }
+  .nav {
+    font-size: 12px;
+    margin: 2px;
+    padding: 0px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  button {
+    width: 100%;
+
+    font-size: 10px;
+  }
+  input {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+.sidebar-name {
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: gray;
+}

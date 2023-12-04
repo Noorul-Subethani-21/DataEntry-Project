@@ -24,7 +24,7 @@ const AdminOtp = () => {
             type="email"
             placeholder="Enter Email"
             style={inputStyle}
-            onFocus={(e) => e.target.style.outline = 'none'}
+            onFocus={(e) => (e.target.style.outline = "none")}
           />
         </div>
       </div>
@@ -59,7 +59,7 @@ const formContainerStyle = {
   margin: "10px",
   padding: "10px",
   border: "1px solid #e9ebe9",
-  height: "40px",
+  height: "60px",
   color: "#e9ebe9",
   marginLeft: "30%",
   background: "#ebe9eb",

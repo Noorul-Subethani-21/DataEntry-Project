@@ -1,0 +1,120 @@
+.form-container {
+  width: 500%;
+  margin: 25px;
+  color: black;
+  display: grid;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.for {
+  display: grid;
+  margin-top: 0px;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  width: 250%;
+}
+h3 {
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 60%;
+  margin-top: 20px;
+}
+
+input {
+  width: 76%;
+  margin-top: 0px;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+.icons {
+  display: flex;
+  margin-top: 5%;
+  width: 20%;
+  margin-left: 200%;
+  gap: 20px;
+}
+.ico {
+  border: 1px solid rgb(211, 110, 110);
+  padding: 5px;
+  margin-top: 2px;
+  background: rgb(211, 110, 110);
+  color: #fff;
+  border-radius: 7px;
+}
+.dlticon {
+  border: 1px solid rgb(211, 110, 110);
+  padding: 5px;
+  background: red;
+  color: #fff;
+  border-radius: 7px;
+}
+.refresh {
+  border: 1px solid rgb(144, 208, 233);
+  padding: 5px;
+  background: rgb(144, 208, 233);
+  color: #fff;
+  border-radius: 7px;
+}
+.message {
+  border: 1px solid rgb(29, 76, 114);
+  padding: 5px;
+  background: rgb(29, 76, 114);
+  color: #fff;
+  border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .for {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+  }
+  label {
+    font-size: 12px;
+  }
+
+  input {
+    width: 100px;
+    font-size: 16px;
+  }
+  .icons {
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+}
+
+.sidebar-name {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+input {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+label {
+  font-weight: 500;
+  font-size: 20px;
+}
